@@ -26,6 +26,7 @@ def get_mac(dest_ip):
 
     mac = answered_list[0][1].hwsrc
     print(mac)
+    del arp, ether, arp_request, answered_list
     return mac #destination
 
 
